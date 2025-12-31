@@ -154,3 +154,34 @@ main section{
     font-weight: 400;
     color: rgba(117, 117, 117, 1);
 }
+
+/* resume section style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description, .experience-sub-title{
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 30px;
+}
+
+.resume-btn-download-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
