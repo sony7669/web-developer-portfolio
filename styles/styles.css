@@ -1,4 +1,7 @@
 
+*{
+    margin: 0;
+}
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -89,6 +92,9 @@ main section{
 .banner-content{
     max-width: 580px;
 }
+.banner-content button{
+    margin-right: 20px;
+}
 
 .banner-greetings{
     font-size: 45px;
@@ -103,6 +109,7 @@ main section{
 .banner-description{
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .banner-profile-pic{
